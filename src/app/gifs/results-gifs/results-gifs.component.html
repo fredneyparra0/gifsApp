@@ -1,0 +1,6 @@
+<div class="boximages">
+    <div *ngFor="let git of results" class="boximage animate__animated animate__fadeInUp">
+        <img class="img" [src]="git.images.downsized.url" alt="">
+        <p class="title">{{ git.title }}</p>
+    </div>
+</div>

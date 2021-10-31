@@ -1,0 +1,13 @@
+<div class="title pdt-3">
+    <a class="a-title title" href="/">GIF APP</a>
+    <div class="mgt-3">
+        <a 
+            class="a-history"
+            href="#"
+            *ngFor="let query of historial"
+            (click)="searchHistory(query)"
+        >
+            {{ query | titlecase }}
+        </a>
+    </div>
+</div>
